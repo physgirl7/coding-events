@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 public class SkillsController {
 
+
     @GetMapping
     @ResponseBody
     public String landingPage(){
