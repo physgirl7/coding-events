@@ -26,10 +26,26 @@ public class SkillsController {
                 "<html>" +
                         "<body>" +
                         "<h1>" + name + "</h1>" +
-                        "<ol>" +
-                        "<li>" + language + "</li>" +
-                        "<li>" + language2 + "</li>" +
-                        "<li>" + language3 + "</li>";
+//                        "<ol>" +
+//                        "<li>" + language + "</li>" +
+//                        "<li>" + language2 + "</li>" +
+//                        "<li>" + language3 + "</li>";
+                       "<table>" +
+                        "<tr>" +
+                        "<th>My Favorite Language</th>" +
+                        "<td>" + language + "</td>" +
+                        "</tr>" +
+                        "<tr>" +
+                        "<th>My Second Favorite Language</th>" +
+                        "<td>" + language2 + "</td>" +
+                        "</tr>" +
+                        "<tr>" +
+                        "<th>My Third Favorite Language</th>" +
+                        "<td>" + language3 + "</td>" +
+                        "</tr>" +
+                        "</table>" +
+                        "</body>" +
+                        "</html>";
         return formPostOutput;
     }
 
@@ -74,3 +90,4 @@ public class SkillsController {
 
     }
 }
+
